@@ -1,7 +1,7 @@
 ```Java
 // Using join()
 List<String> array = new ArrayList<>(); // array = ["N", "a", "man"]
-String str = String("", array); // "Naman"
+String str = String.join("", array); // "Naman"
 ```
 
 ### join()
