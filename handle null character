@@ -1,0 +1,5 @@
+char nullChar = '\u0000';
+
+char[] charArr = new char[1]; // initialised to null value.
+
+nullChar == charArr[0] // true.
